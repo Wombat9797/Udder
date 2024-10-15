@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/*Manage the UIElements*/
 struct ContentView: View {
     var body: some View {
         VStack {
@@ -23,6 +24,7 @@ struct ContentView: View {
     }
 }
 
+/*Load the structure of ContentView*/
 #Preview {
     ContentView()
 }
