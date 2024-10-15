@@ -17,6 +17,7 @@ struct ContentView: View {
                 .padding(.bottom)
             Text("Fresh Milk, On Demand.")
                 .font(.system(size: 20))
+                .padding(.bottom)
             Image("Milk")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
